@@ -7,4 +7,4 @@ Simply install, enter your apikey and secret, and then add live screenshots via 
 
 short codes
 ==========
-[screenshot width="200" link]http://www.cnn.com[/screenshot]
+  `[screenshot width="200" link]http://www.cnn.com [/screenshot]
