@@ -20,7 +20,7 @@ function url2png_imgtag($attrs, $content = null) {
   }
 
   $src = url2png_v6($content, $options);
-  $output = "<img src=\"${src}\" />";
+  $output = "<img class='wp_url2png' src=\"${src}\" />";
   if( isset( $link ) ) {
     $output = "<A href=\"$content\">$output</A>";
   }
