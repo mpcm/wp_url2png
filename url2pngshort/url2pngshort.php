@@ -4,8 +4,8 @@
  * Description: Insert URL2PNG screenshots via shortcode
  * Author: Matthew Morley
  * Author URI: http://www.mpcm.com
- * Stable tag: 0.3
- * Version: 0.3
+ * Stable tag: 0.3.1
+ * Version: 0.3.1
  */
 
 function url2png_imgtag($attrs, $content = null) {
@@ -40,6 +40,7 @@ function url2png_v6($url, $args) {
   }
   if( isset($options['secret']) ){
     $URL2PNG_SECRET = $options['secret'];
+    unset($options['secret']);
   }
 
   # urlencode request target
